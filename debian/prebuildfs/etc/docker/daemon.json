@@ -1,0 +1,18 @@
+{
+  "registry-mirrors": [
+    "https://mirror.ccs.tencentyun.com",
+    "https://dyucrs4l.mirror.aliyuncs.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "http://hub-mirror.c.163.com"
+  ],
+  "storage-driver": "overlay2",
+  "max-concurrent-downloads": 10,
+  "max-concurrent-uploads": 10,
+  "log-driver": "json-file",
+  "log-level": "warn",
+  "log-opts": {
+    "max-size": "10m",
+    "max-file": "3"
+  },
+  "data-root": "/opt/quickon/docker"
+}
